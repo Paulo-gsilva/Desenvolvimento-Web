@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>TESTES</title>
+</head>
+<body>
+    
+    <form>
+
+        <fieldset id="usuario">
+            <legend><strong>Informações Usuário</strong></legend>
+
+            <p><label for="itext">Nome:</label><input type="text" name="ctext" id="itext" placeholder="Seu Nome"></p>
+            <p><label for="inum">Idade:</label><input type="number" name="cnum" id="inum" step="10"></p>
+            <p><label for="iemail">Email:</label><input type="email" name="cemail" id="iemail" placeholder="Seu Email"></p>
+            <p><label for="ipass">Senha:</label><input type="password" name="cpass" id="ipass"></p>
+            <p>Você é:</p>
+                <input type="checkbox" name="calto" id="ialto"><label for="ialto">Alto</label><br>
+                <input type="checkbox" name="cbaixo" id="ibaixo"><label for="ibaixo">Baixo</label><br>
+                <input type="checkbox" name="cgordo" id="igordo"><label for="igordo">Gordo</label><br>
+                <input type="checkbox" name="cmagro" id="imagro"><label for="imagro">Magro</label>
+            <p>Sexo:<br></p>
+                <input type="radio" name="csexo" id="iMasc"><label for="iMasc">Masculino</label>
+                <input type="radio" name="csexo" id="iFem"><label for="iMasc">Feminino</label>
+            <p><label for="inacio">Nacionalidade:</label><select name="cnacio" id="inacio">
+                <option>Brasileiro</option>
+                <option>Estrangeiro</option>
+            </select></p>
+            <p><label for="iest">Estado:</label><select name="cest" id="iest">
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Ceará</option>
+                <option>Bahia</option>
+                <option>Pará</option>
+            </select></p>
+            <p><label for="irua">Rua:</label><input type="text" name="crua" id="irua" placeholder="Sua Rua"></p>
+            <p><label for="inumrua">Número:</label><input type="number" name="cnumrua" id="inumrua"></p>
+            <p></p>
+
+            <div id="botoes">
+                <input type="submit" value="Enviar" id="botao">
+                <input type="reset" value="Apagar" id="botao">
+            </div>
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+</html>

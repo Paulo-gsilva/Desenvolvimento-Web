@@ -1,0 +1,76 @@
+@charset "UTF-8";
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background: rgba(0, 0, 0, 0.507);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    padding: 2px;
+}
+header h1{
+    margin-left: 10px;
+}
+header ul{
+    float: left;
+}
+header li{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    margin-left: 125px;
+}
+article{
+    margin: 0px 0px;
+    padding: 5px;
+    width: 80vw; /*VW E VH OCUPAM ESPAÇO DE ACORDO COM A AREA*/
+    height: 100vh;
+}
+article h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    height: 10vh;
+    font-size: 50px;
+}
+article p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    height: 40vh;
+}
+article#a1{
+    background-color: red;
+}
+article#a2{
+    background-color: green;
+}
+article#a3{
+    background-color: blue;
+}
+
+
+@media (max-width: 414px){
+    header{
+        width: 100vw;
+    }
+
+
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+fieldset{
+    background: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+}
+
+legend{
+    background: ddd;
+    color: black;
+    text-transform: uppercase;
+}
+
+label{
+    margin-right: 5px;
+}
+
+div#botoes{
+    margin-left: 250px;
+    padding: 3px;
+}
+
+input, select{
+    background: rgba(170, 168, 168, 0.548)
+}
+
+

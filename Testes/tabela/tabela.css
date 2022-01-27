@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+table{
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    color: white;
+    border: 12px solid rgb(144, 144, 226);
+    border-collapse: collapse;
+}
+
+thead#inicio{
+    background: rgb(144, 144, 226);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+tbody, tfoot{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+thead#inicio td{
+    height: 40px;
+}
+
+td.acessorio{
+    background: rgb(34, 34, 221);
+}
+td.roupa{
+    background: rgb(15, 15, 141);
+}
+
+tr.um{
+    background: rgb(15, 15, 141);
+}
+tr.dois{
+    background: rgb(144, 144, 226);
+}
